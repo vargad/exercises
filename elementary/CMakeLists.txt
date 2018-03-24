@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(say-history "say-history.cpp")
+add_executable(correct-sentence "correct-sentence.cpp")
