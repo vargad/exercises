@@ -8,7 +8,7 @@ def simulate_colony():
     while size > 0 and size < 2000:
         new_size = 0
         for _ in range(size):
-            new_size += random.randint(0,3)
+            new_size += int(random.random()*4)
         size = new_size
     return size > 0
 
